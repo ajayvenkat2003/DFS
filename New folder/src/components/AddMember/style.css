@@ -1,0 +1,15 @@
+.container-own{
+    width:60%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.container-own>div>div{
+    margin:10px;
+}
+.submit-btn{
+    margin:5px;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+}

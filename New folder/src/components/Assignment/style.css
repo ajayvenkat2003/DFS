@@ -1,0 +1,25 @@
+.form-own{
+    width:50%;
+    display: block;
+    padding: 3px;
+    border-radius: 3px;
+    margin: 3px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.form-own>div{
+    margin:10px;
+}
+
+
+.find-btn{
+    margin:5px;
+}
+
+.card{
+    
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+

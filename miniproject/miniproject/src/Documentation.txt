@@ -1,0 +1,35 @@
+
+(post)
+1)"http://localhost:8080/project/adddemand"
+    arguments-pId,pName,managerName2,etc...
+    accepts the demand object persists the demand to database
+
+(post)
+2)"http://localhost:8080/project/addmember"
+    arguments-employeeId,firstName,lastName,dob,etc...
+    accepts the member object persists the member to database
+
+(get)
+3)"http://localhost:8080/project/alldemands"
+    returns the list of demands with status code 'OK'
+
+ (get)
+4)"http://localhost:8080/project/allmembers"
+    returns the list of demands with status code 'OK'
+
+(post)
+5)"http://localhost:8080/project/validmembers"
+    takes argument -projectId,city,skill,level,exp
+    returns the list of the members who satisfy the request condition
+
+(post)
+6)"http://localhost:8080/project/assign"
+    takes argument -projectId,city,skill,level,exp
+    returns the member who satisfies the request condition or returns no member found
+
+    The project is assigned with the member with the highest skill level and DOJ
+
+(post)
+7)"http://localhost:8080/project/getdemand"
+    takes argument -city,manager,name,status
+    returns the list of demands that satisfy the conditions or returns demand not found

@@ -1,0 +1,10 @@
+.container-own{
+    width:60%;
+
+}
+.container-own>div{
+    margin:10px;
+}
+.submit-btn{
+    margin:5px;
+}
